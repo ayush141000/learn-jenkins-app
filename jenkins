@@ -20,5 +20,7 @@ pipeline {
                     ls -la
                 }
             }
+            }
+            
         }
 }
