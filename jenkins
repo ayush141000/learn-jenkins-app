@@ -10,6 +10,7 @@ pipeline {
                 steps {
                     sh '''
                     ls -la
+                    pwd
                     echo 'without docker'
                     '''
                 }
@@ -26,6 +27,7 @@ pipeline {
                 steps{
                     sh '''
                     ls -la
+                    pwd
                     echo " with docker"
                     ls -la
                     '''
